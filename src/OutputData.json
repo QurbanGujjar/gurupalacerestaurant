@@ -1,0 +1,130 @@
+[{
+        "title": "Vegetable Samosa",
+        "subtitle": "Vegetarian",
+        "img": "images/appetizer.jpg",
+        "articles": [{
+                "id": "1",
+                "name": "Vegetable Samosa1",
+                "price": "5.56"
+            },
+            {
+                "id": "2",
+                "name": "Vegetable Samosa2",
+                "price": "5.50"
+            },
+            {
+                "id": "3",
+                "name": "Vegetable Samosa3",
+                "price": "5.51"
+            },
+            {
+                "id": "4",
+                "name": "Vegetable Samosa4",
+                "price": "5.52"
+            }
+        ]
+    },
+    {
+        "title": "Vegetable Samosa",
+        "subtitle": "Non-Vegetarian",
+        "img": "images/Non-Vegetarian.jpg",
+        "articles": [{
+                "id": "1",
+                "name": "Vegetable Samosa",
+                "price": "5.56"
+            },
+            {
+                "id": "2",
+                "name": "Vegetable Samosa",
+                "price": "5.56"
+            },
+            {
+                "id": "3",
+                "name": "Vegetable Samosa",
+                "price": "5.56"
+            },
+            {
+                "id": "4",
+                "name": "Vegetable Samosa",
+                "price": "5.56"
+            }
+        ]
+    },
+    {
+        "title": "ACCOMPANIMENTS",
+        "subtitle": "",
+        "img": "images/ACCOMPANIMENTS.jpg",
+        "articles": [{
+                "id": "1",
+                "name": "Vegetable Samosa",
+                "price": "5.56"
+            },
+            {
+                "id": "2",
+                "name": "Vegetable Samosa",
+                "price": "5.56"
+            },
+            {
+                "id": "3",
+                "name": "Vegetable Samosa",
+                "price": "5.56"
+            },
+            {
+                "id": "4",
+                "name": "Vegetable Samosa",
+                "price": "5.56"
+            }
+        ]
+    }, {
+        "title": "DESSERTS",
+        "subtitle": "",
+        "img": "images/DESSERTS.jpg",
+        "articles": [{
+                "id": "1",
+                "name": "Vegetable Samosa",
+                "price": "5.56"
+            },
+            {
+                "id": "2",
+                "name": "Vegetable Samosa",
+                "price": "5.56"
+            },
+            {
+                "id": "3",
+                "name": "Vegetable Samosa",
+                "price": "5.56"
+            },
+            {
+                "id": "4",
+                "name": "Vegetable Samosa",
+                "price": "5.56"
+            }
+        ]
+    },
+    {
+        "title": "TANDOORI OVEN",
+        "subtitle": " ",
+        "img": "images/TANDOORI OVEN.jpg",
+        "articles": [{
+                "id": "1",
+                "name": "Vegetable Samosa",
+                "price": "5.56"
+            },
+            {
+                "id": "2",
+                "name": "Vegetable Samosa",
+                "price": "5.56"
+            },
+            {
+                "id": "3",
+                "name": "Vegetable Samosa",
+                "price": "5.56"
+            },
+            {
+                "id": "4",
+                "name": "Vegetable Samosa",
+                "price": "5.56"
+            }
+        ]
+    }
+]

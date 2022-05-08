@@ -1,0 +1,10 @@
+#menubody {
+    height: auto;
+}
+
+.menuhead {
+    background-image: url("./../../assets/model.bg.jpg");
+    background-size: cover;
+    background-position: 50%;
+    height: 30vh;
+}

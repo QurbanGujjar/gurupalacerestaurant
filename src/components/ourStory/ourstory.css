@@ -1,0 +1,134 @@
+#about {
+    background-image: url('./../../assets/bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.our_story_bg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    padding: 50px;
+}
+
+.story_img {
+    width: 50%;
+}
+
+.our_story {
+    width: 50%;
+}
+
+.our_story h1 {
+    color: #ef1e23;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    line-height: 33px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+.our_story p {
+    color: #000000;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.more_about {
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.more_about:hover {
+    color: rgb(255, 255, 255);
+    border-color: rgb(239, 30, 35);
+    background-color: rgb(239, 30, 35);
+}
+
+.more_about span {
+    font-size: x-large;
+}
+
+.story_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.sertificate {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+}
+
+.sertificate_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 0px;
+}
+
+@media (max-width:1000px) {
+    #about {
+        height: auto;
+    }
+    .our_story_bg {
+        height: auto;
+        display: block;
+    }
+    .story_img {
+        width: 100%;
+    }
+    .our_story {
+        width: 100%;
+    }
+}
+
+@media (max-width:900px) {
+    .our_story_bg {
+        padding: 40px;
+    }
+}
+
+@media (max-width:800px) {
+    .our_story_bg {
+        padding: 30px;
+    }
+}
+
+@media (max-width:600px) {
+    .our_story_bg {
+        padding: 20px;
+    }
+    .sertificate {
+        display: block;
+        padding: 10px;
+    }
+}
+
+@media (max-width:400px) {
+    #about {
+        padding: 20px;
+    }
+    .our_story_bg {
+        padding: 5px;
+    }
+    .more_about {
+        width: 250px;
+    }
+}

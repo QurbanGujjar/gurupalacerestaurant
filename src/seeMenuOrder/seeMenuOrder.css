@@ -1,0 +1,18 @@
+.seeMenuOrder {
+    position: fixed;
+    right: 0;
+    float: right;
+    background-color: #EB1700 !important;
+    padding: 13px !important;
+    top: 50%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.seeMenuOrder p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+}

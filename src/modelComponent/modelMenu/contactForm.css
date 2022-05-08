@@ -1,0 +1,166 @@
+/* .customer-details-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+} */
+
+.customer-details {
+    padding: 15px;
+    margin: 8px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.contact-edit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.edit {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    fill: #7a8799;
+    /* right: 0; */
+    /* top: -30px; */
+    border: 1px solid #c7cdd6;
+    background-color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+
+.edit img {
+    width: 100%;
+    padding: 1px;
+}
+
+.contact-form input {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 13px 10px 7px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: inset 1px 1px 3px -1px rgb(0 0 0 / 15%);
+}
+
+.placeHolder {
+    left: 15px;
+    height: 16px;
+    line-height: 16px;
+    z-index: 20;
+    font-size: 12px;
+    color: #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 0 2px;
+    position: absolute;
+}
+
+.fname {
+    top: 20px;
+}
+
+.fname-lable-top {
+    top: 2px;
+}
+
+.lname {
+    top: 20px;
+    /* right: 110px; */
+    right: 10vw;
+    height: 16px;
+    line-height: 16px;
+    z-index: 20;
+    font-size: 12px;
+    color: #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 0 2px;
+    position: absolute;
+}
+
+.lname-lable-top {
+    top: 2px;
+}
+
+.emailtelephoneInput {
+    position: relative;
+}
+
+.email {
+    top: 10px;
+}
+
+.email-lable-top {
+    top: -8px;
+}
+
+.telephone {
+    top: 60px;
+}
+
+.telephone-lable-top {
+    top: 43px;
+}
+
+.nameInput {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-form-btn {
+    margin-top: 0.5rem !important;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+
+.contact-form-btn {
+    width: 100%;
+    align-items: center;
+    background-color: #f08b18;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border: none;
+}
+
+.disable-btn {
+    cursor: not-allowed;
+}
+
+.condition {
+    font-size: 12px;
+    line-height: 1em;
+    color: #9a9a9a
+}
+
+@media (max-width:1000px) {
+    .lname {
+        right: 8vw;
+    }
+}
+
+@media (max-width:600px) {
+    .lname {
+        right: 20vw;
+    }
+}
+
+@media (max-width:400px) {
+    .lname {
+        right: 19vw;
+    }
+}
