@@ -11,12 +11,11 @@ import PaymentMethodChosen from "./PaymentMethodChosen";
 import PaymentMethodForm from "./PaymentMethodForm";
 import UserDetails from "./UserDetails";
 
-const ContactForm = () => {
+const ContactForm = ({check, setCheck,payMethod, setPayMethod}) => {
   const [editOrCancelBtn, setEditOrCancelBtn] = useState("edit");
   const [editOrCancelBtnATC, setEditOrCancelBtnATC] = useState("edit");
   const [editOrCancelBtnPM, setEditOrCancelBtnPM] = useState("edit");
-  const [check, setCheck] = useState("As soon as possible");
-  const [payMethod, setPayMethod] = useState("Cash");
+
 
   return (
     //   <div className="customer-details-container">

@@ -1,0 +1,51 @@
+.login-container {
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 100px;
+}
+
+.login-row1 {
+    width: 50%;
+    height: auto;
+}
+
+.login-row2 {
+    width: 50%;
+    height: auto;
+}
+
+@media only screen and (max-width:1000px) {
+    .login-container {
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 50px;
+    }
+    .login-row1 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .login-container {
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 50px;
+    }
+    .login-row1 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .login-container {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 10px;
+    }
+    .login-row1 {
+        width: 100%;
+        height: auto;
+    }
+}
